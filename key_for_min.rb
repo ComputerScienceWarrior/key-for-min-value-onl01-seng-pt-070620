@@ -14,7 +14,8 @@ def key_for_min_value(name_hash)
     elsif temp > values[i + 1]
       #swap the values!
       smallest = values[i + 1]
-      value[i] = smallest
+      values[i] = values[i + 1] 
+      values[i + 1] = temp
     end
     i += 1
   end
