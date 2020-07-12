@@ -11,7 +11,10 @@ def key_for_min_value(name_hash)
     values.push(val) #tested and works..is storing values
   end
   
-  
+     if lowest_value == nil || v < lowest_value
+      lowest_value = v 
+      lowest_key = k 
+    end 
   
   return values
 end
