@@ -8,6 +8,6 @@ def key_for_min_value(name_hash)
   
   name_hash.collect do |key, val|
     values.push(val) #tested and works..is storing values
-    return values
   end
+  return values
 end
