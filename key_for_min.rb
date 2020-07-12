@@ -16,6 +16,7 @@ def key_for_min_value(name_hash)
       smallest = values[i + 1]
       values[i] = values[i + 1] 
       values[i + 1] = temp
+      temp = values[i + 1]
     end
     i += 1
   end
